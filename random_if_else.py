@@ -1,5 +1,3 @@
-# Write code below 💖
-
 
 import random as rd
 

@@ -21,4 +21,4 @@ def get_item(a):
 
 welcome()
 
-get_item('Escolha um número: ')
+get_item('Escolha pelo número: ')

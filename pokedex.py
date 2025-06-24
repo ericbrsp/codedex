@@ -25,8 +25,10 @@ class Pokemon:
 
 
 
-#Crie um Pokémon com essas informações e guarde ele na variável pika
+#Crie um Pokémon com essas informações e guarde ele na variável pika:
 pika = Pokemon(25, 'Pikachu', ['Eletric'], 'It has small electric sacs on both its cheeks.If threatened, it looses electric charges from the sacs', True)
+#Pokemon → é a classe, ou seja, o molde, o modelo, a fábrica que define como deve ser um Pokémon.
+#pika → é o objeto, ou seja, uma instância da classe Pokemon, que representa um Pokémon específico: Pikachu.
 
 charizard = Pokemon(6, 'Charizard', ['Fire', 'Flying'], 'It spits fire that is hot enough to melt boulders. It may cause forest fires by blowing flames.', False)
 gyarados = Pokemon(130, 'Gyarados', ['Water', 'Flying'], 'It has an extremely aggressive nature. The HYPER BEAM it shoots from its mouth totally incinerates all targets.', False)

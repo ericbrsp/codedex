@@ -13,14 +13,23 @@ class Pokemon:
   def details(self):
     print(f'Entry Number: {self.entry}')
     print(f'Name: {self.name}')
-    print(f'Type: {self.types}')
+    if len(self.types) == 1:
+      print('Type: ' + self.types[0])
+    else:
+      print('Type: ' + self.types[0] + '/' + self.types[1])
     print(f'Description: {self.description}')
-    print(f'{self.is_caught}')
+    if self.is_caught:
+      print(self.name + ' has already been caught!')
+    else:
+      print(self.name + ' hasn\'t been caught yet.')
 
 
 
-pika = Pokemon(25, 'Pikachu', 'Eletric', 'It has small electric sacs on both its cheeks.If threatened, it looses electric charges from the sacs', 'Pikachu has already been caught!')
+#Crie um Pokémon com essas informações e guarde ele na variável pika
+pika = Pokemon(25, 'Pikachu', ['Eletric'], 'It has small electric sacs on both its cheeks.If threatened, it looses electric charges from the sacs', True)
 
+charizard = Pokemon(6, 'Charizard', ['Fire', 'Flying'], 'It spits fire that is hot enough to melt boulders. It may cause forest fires by blowing flames.', False)
+gyarados = Pokemon(130, 'Gyarados', ['Water', 'Flying'], 'It has an extremely aggressive nature. The HYPER BEAM it shoots from its mouth totally incinerates all targets.', False)
 
 pika.speak()
 pika.details()

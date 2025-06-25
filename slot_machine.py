@@ -1,3 +1,4 @@
+
 import random as rd
 
 def play():
@@ -29,3 +30,6 @@ def play():
     print('👋 Saindo do jogo... Volte sempre!')
   elif venceu:
     print('🎈 Obrigado por jogar! Você é um campeão! 🎈')
+
+
+play()

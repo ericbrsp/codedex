@@ -1,5 +1,5 @@
 #An object is an "instance" of a class
-# A class is simply a template for creating objects
+#A class is simply a template for creating objects
 
 class Student:
   student_id = 0
